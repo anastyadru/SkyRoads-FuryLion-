@@ -965,10 +965,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a99adb6f356db447a6d95b85c5de52c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HighScoreText: {fileID: 823998470}
-  ScoreText: {fileID: 1741641012}
-  score: 0
-  highscore: 0
 --- !u!1 &393018688
 GameObject:
   m_ObjectHideFlags: 0
@@ -3336,8 +3332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8184c45289f83499eede1a5bca0aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myFX: {fileID: 1130478026}
-  clickFX: {fileID: 8300000, guid: 35cf7766e9e2aa542811e896fde57989, type: 3}
 --- !u!1 &1162087950
 GameObject:
   m_ObjectHideFlags: 0
@@ -3464,7 +3458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11fb79f7029d2d74ab4d5bd4e115bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio_: {fileID: 1162087951}
 --- !u!4 &1162087953
 Transform:
   m_ObjectHideFlags: 0
@@ -4039,7 +4032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c41073305304b438421e81b3fdc6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 1563399183}
 --- !u!1 &1606969970
 GameObject:
   m_ObjectHideFlags: 0
@@ -5033,6 +5025,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf2855e0d2aaba94fab0c7d945f83912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  offset: 0
+  myMaterial: {fileID: 0}
 --- !u!64 &2018456003
 MeshCollider:
   m_ObjectHideFlags: 0
