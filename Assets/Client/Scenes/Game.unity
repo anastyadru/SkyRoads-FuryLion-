@@ -931,7 +931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 384827152}
-  - component: {fileID: 384827153}
+  - component: {fileID: 384827154}
   m_Layer: 0
   m_Name: ScoreManager
   m_TagString: Untagged
@@ -953,7 +953,7 @@ Transform:
   m_Father: {fileID: 623870844}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &384827153
+--- !u!114 &384827154
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1584,6 +1584,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e0cfd22b0770db4dbcbc11f96de437a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerText: {fileID: 0}
+  minutes: 0
+  seconds: 0
 --- !u!114 &587241976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1636,6 +1639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 612360046}
   - component: {fileID: 612360047}
+  - component: {fileID: 612360045}
   m_Layer: 0
   m_Name: GameBaundary
   m_TagString: GameBaundary
@@ -1643,6 +1647,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &612360045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612360044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2113bbc7e046144b1b77fe8abd9a51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &612360046
 Transform:
   m_ObjectHideFlags: 0
@@ -2235,6 +2251,7 @@ GameObject:
   - component: {fileID: 785880607}
   - component: {fileID: 785880605}
   - component: {fileID: 785880606}
+  - component: {fileID: 785880603}
   m_Layer: 0
   m_Name: Asteroids
   m_TagString: Untagged
@@ -2242,6 +2259,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &785880603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785880602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d075033efcae7514da576f52d7a84e73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroid: {fileID: 981055493731174032, guid: 9bd8af89a5a97104a8fdf1b09594b9aa, type: 3}
 --- !u!4 &785880604
 Transform:
   m_ObjectHideFlags: 0
@@ -2888,9 +2918,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b25e1deb80bb44ea733859a15bf810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 436354615}
-  offset: {x: 0, y: 7, z: -15}
-  followSpeed: 5
 --- !u!1 &969721933
 GameObject:
   m_ObjectHideFlags: 0
@@ -3336,8 +3363,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8184c45289f83499eede1a5bca0aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myFX: {fileID: 1130478026}
-  clickFX: {fileID: 8300000, guid: 35cf7766e9e2aa542811e896fde57989, type: 3}
 --- !u!1 &1162087950
 GameObject:
   m_ObjectHideFlags: 0
@@ -3464,7 +3489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11fb79f7029d2d74ab4d5bd4e115bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio_: {fileID: 1162087951}
 --- !u!4 &1162087953
 Transform:
   m_ObjectHideFlags: 0
@@ -4039,7 +4063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c41073305304b438421e81b3fdc6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 1563399183}
 --- !u!1 &1606969970
 GameObject:
   m_ObjectHideFlags: 0
