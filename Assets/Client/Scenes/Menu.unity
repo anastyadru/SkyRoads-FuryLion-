@@ -995,7 +995,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11fb79f7029d2d74ab4d5bd4e115bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio_: {fileID: 468297505}
 --- !u!4 &468297507
 Transform:
   m_ObjectHideFlags: 0
@@ -3224,7 +3223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19c41073305304b438421e81b3fdc6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 1533304876}
 --- !u!1 &1562039880
 GameObject:
   m_ObjectHideFlags: 0
