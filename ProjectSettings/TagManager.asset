@@ -7,6 +7,9 @@ TagManager:
   - GameBaundary
   - Asteroid
   - Spaceship
+  - Interactive2
+  - Interactive3
+  - Interactive1
   layers:
   - Default
   - TransparentFX
