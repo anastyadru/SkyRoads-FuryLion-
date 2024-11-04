@@ -2159,6 +2159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1064894306}
+  - component: {fileID: 1064894307}
   m_Layer: 5
   m_Name: Records
   m_TagString: Untagged
@@ -2189,6 +2190,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1064894307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064894305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522991cd831750242b4e1e1ae3ada087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _backButton: {fileID: 82867089}
 --- !u!1 &1141705580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2503,6 +2517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1294028387}
+  - component: {fileID: 1294028388}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -2534,6 +2549,22 @@ RectTransform:
   m_AnchoredPosition: {x: -404.615, y: -125.719}
   m_SizeDelta: {x: 909.23, y: 761.835}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1294028388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294028386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699aaf7f11f1c9d468bf6992dc9166f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playButton: {fileID: 1562039882}
+  _recordsButton: {fileID: 622523549}
+  _settingsButton: {fileID: 1332753842}
+  _exitButton: {fileID: 1235861833}
 --- !u!1 &1332753840
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,6 +3416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1627937127}
+  - component: {fileID: 1627937128}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -3414,6 +3446,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1627937128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627937126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc8279c5f7b4a94aab72d2ca6129376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _backButton: {fileID: 807540080}
 --- !u!1 &1694178897
 GameObject:
   m_ObjectHideFlags: 0
@@ -3459,6 +3504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1701244172}
+  - component: {fileID: 1701244171}
   m_Layer: 0
   m_Name: ViewManager
   m_TagString: Untagged
@@ -3466,6 +3512,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1701244171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701244170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae31a9d50a9e1e4bbca8be521b58f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startingView: {fileID: 1294028388}
+  _views:
+  - {fileID: 1294028388}
+  - {fileID: 1064894307}
+  - {fileID: 1930907114}
+  - {fileID: 1627937128}
 --- !u!4 &1701244172
 Transform:
   m_ObjectHideFlags: 0
@@ -3723,6 +3787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1930907113}
+  - component: {fileID: 1930907114}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -3754,6 +3819,19 @@ RectTransform:
   m_AnchoredPosition: {x: 9, y: -6}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1930907114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930907112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb96fd0b0d290dd4780ad1686dc9fb63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _backButton: {fileID: 2112030411}
 --- !u!1 &2017096081
 GameObject:
   m_ObjectHideFlags: 0
